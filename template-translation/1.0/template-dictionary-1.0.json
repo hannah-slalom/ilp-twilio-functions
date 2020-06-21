@@ -1,0 +1,338 @@
+{
+    "intro": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¡Hola! Nos estamos contactando con usted en nombre de Mercy Corps y Stanford University. Usted habló con nosotros sobre el programa VenEsperanza hace más o menos tres meses. ¿Le puedo hacer algunas preguntas sobre su situación actual? Sólo tomará un par de minutos contestarlas. Recibirá 5000 pesos de recarga al completer la enceusta. Responda con el número de su respuesta (1 o 2).\n1. Sí\n2. No",
+            "en": ""
+        }
+    },
+    "intro_2": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¡Hola otra vez! Si tiene unos minutos, ¿le puedo mandar un par de preguntas?\n1. Sí\n2. No",
+            "en": ""
+        }
+    },
+    "removefromsurvey": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Gracias por tu tiempo. No nos pondremos en contacto con usted en el futuro para este proyecto.",
+            "en": ""
+        }
+    },
+    "q2": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Todavía reside en Colombia?   \nResponda con el número de su respuesta (1 o 2).\n1. Sí\n2. No",
+            "en": ""
+        }
+    },
+    "q3": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿En que país reside?",
+            "en": ""
+        }
+    },
+    "q4": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿En qué ciudad reside actualmente?",
+            "en": ""
+        }
+    },
+    "q5": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Quién se mudó? Responda con el número de su respuesta (1, 2 o 3). \n1. Sólo yo\n2. Mi familia y yo\n3. Sólo mi familia",
+            "en": ""
+        }
+    },
+    "q6": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Usted o su familia se ha mudado a otra cuidad en estos últimos tres meses?  Responda con el número de su respuesta (1 o 2).\n1. Sí\n2. No",
+            "en": ""
+        }
+    },
+    "q7": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Usted o su familia se ha mudado a otra casa en la misma ciudad en estos últimos tres meses?\n1. Sí\n2. No",
+            "en": ""
+        }
+    },
+    "q8": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Cuales han sido sus primeras fuentes de ingreso en la última semana? Responda con el número de su respuesta. \n1. Empleado de empresa privada o gubernamental\n2. Ayuda humanitaria\n3. Trabajo diario irregular, trabajador casual\n4. No tiene fuente de ingresos\n5. Otro\n6. Trabajo independiente (taxi, carpintero, electricista, etc.)",
+            "en": ""
+        }
+    },
+    "intro_unknownanswer": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. ¿Puedo hacerle algunas preguntas sobre su situación actual? Respuesta con el número de su respuesta (1 o 2). \n1. Sí\n2. No",
+            "en": ""
+        }
+    },
+    "q2_unknownanswer": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. ¿Todavía reside en Colombia? Responda con el número de su respuesta (1 o 2).\n1. Sí\n2. No",
+            "en": ""
+        }
+    },
+    "unknownanswer_q6": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "unknownanswer_q7": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "unknownanswer_q5": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "unknownanswer_q8": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q9": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Cuanto fue el ingreso de su hogar en la ultima mes? Por favor escribe la cantidad en pesos.",
+            "en": ""
+        }
+    },
+    "q10": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Cuál es el tipo de vivienda en que ha residido en los últimos 15 días? Por favor responda con el número (1-5).\n1. Casa o Apartamento\n2.Habitación u hotel\n3. Techo compartido / Inquilinato\n4. Techo improvisado / Albergue más de 5 días\n5. Situación de calle",
+            "en": ""
+        }
+    },
+    "unknownanswer_q10": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q11": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "La vivienda que ocupa es:\n1. Propia\n2. Arriendo\n3. Alojamiento pasajero o situacion de calle\n4. Ocupación/ En cuido/hospedaje en cambio de trabajo",
+            "en": ""
+        }
+    },
+    "unknownanswer_q11": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q12": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "En promedio durante la última semana; ¿Cuántas comidas se han consumido en su hogar por día?\n 1. Menos de 2 comidas al dia\n 2. 2 comidas al dia\n 3. 3 comidas o mas",
+            "en": ""
+        }
+    },
+    "unknownanswer_q12": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q13": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Cuántos días su hogar tuvo que reducir el tamaño de las porciones de las comidas?\n 0. Nunca\n 1. 1 dia\n 2. 2 dias\n 3. 3 dias\n 4. 4 dias\n 5. 5 dias\n 6. 6 dias\n 7. 7 dias",
+            "en": ""
+        }
+    },
+    "unknownanswer_q13": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q14": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿En qué fuentes de información confía más cuando se trata de consejos sobre la prevención del coronavirus?\n1. Amigos o familia\n2. Publicaciones que veo en las redes sociales o WhatsApp\n3. Información que recibo del gobierno\n4. Información que recibo de las ONG\n5. Ninguno",
+            "en": ""
+        }
+    },
+    "unknownanswer_q14": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q15": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "En general, ¿cómo calificaría su salid física?\n1. Excelente\n2. Muy Bueno\n3. Bueno\n4. Feria\n5. Pobre",
+            "en": ""
+        }
+    },
+    "unknownanswer_q15": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q16": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "En el ultimo mes, ¿usted o algún otro adulto en su hogar ha recibido atención médica?\n1. No, no busqué atención médica\n2. Quería buscar atención médica, pero no podía pagarla.\n3. Quería buscar atención médica, pero no sabía a dónde ir.\n4. Sí, recibí atención médica.",
+            "en": ""
+        }
+    },
+    "unknownanswer_q16": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q17": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "En los últimos 7 días, ¿cuántos días ha estado en casa todo el día, sin salir ni recibir visitas?   \nResponda con el número de su respuesta (1-5).\n1. Todos los días (7)\n2. Casi todos los días (4-6)\n3. Algunos días (2-3)\n4. Una vez (1)\n5. Nunca (0)",
+            "en": ""
+        }
+    },
+    "unknownanswer_q17": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q18": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Cuántos niños menores de 17 años hay en su hogar? Por favor escriba el número.",
+            "en": ""
+        }
+    },
+    "q19": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Cuántos de estos niños menores están matriculados en la escuela? Por favor escriba el número.",
+            "en": ""
+        }
+    },
+    "unknownanswer_q18": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el numero de niños menores de 17 años en su hogar.",
+            "en": ""
+        }
+    },
+    "unknownanswer_q19": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el numero de niños menores de 17 años que están matriculados en la escuela.",
+            "en": ""
+        }
+    },
+    "q20": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Cuántos de los días escolares han estado estos niños en la escuela durante el último mes?\n1. Todos los días escolares\n2. La mayoría de los días escolares\n3. Algunos días escolares\n4. Ninguno de los días escolares",
+            "en": ""
+        }
+    },
+    "unknownanswer_q20": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q21": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "Gracias por su participación. Nos gustaría ofrecerle 5000 pesos de recarga por su participación. ¿Está bien si envoi la recarga a este número?\n1. Sí\n2. No",
+            "en": ""
+        }
+    },
+    "unknownanswer_q21": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "q22": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿A qué número debo eviarle la recarga?",
+            "en": ""
+        }
+    },
+    "q23": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "¿Qué red utiliza con ese número para poder enviarle la recarga correctamente?\n1. Claro\n2. Movistar\n3. Tigo\n4. Virgin Mobile\n5. ETB\n6. Avantel\n7. Otro",
+            "en": ""
+        }
+    },
+    "unknownanswer_q23": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    },
+    "lastmessage": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Gracias por su participación en nuestra encuesta y nos podremos en contacto con usted nuevamente dentro de tres meses. La recarga debe llegar dentro de dos días.\n ¡Tenga un buen día!",
+            "en": ""
+        }
+    },
+    "q22_2": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "Por favor escriba el número nuevamente para confirmar que es correcto.",
+            "en": ""
+        }
+    },
+    "q23_2": {
+        "type": "send-and-wait-for-reply",
+        "dictionary": {
+            "es": "Para confirmar que le enviaremos la recarga correcta, responda una vez más. ¿Qué red utiliza con ese número para poder enviarle la recarga correctamente?\n1. Claro\n2. Movistar\n3. Tigo\n4. Virgin Mobile\n5. ETB\n6. Avantel\n7. Otro",
+            "en": ""
+        }
+    },
+    "unknownanswer_q23_2": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": ""
+        }
+    }
+}

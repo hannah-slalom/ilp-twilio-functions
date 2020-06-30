@@ -1,7 +1,6 @@
 const fs = require("fs");
 
 class TemplateTranslation {
-
   constructor(prevVersion, version) {
     this.prevVersion = prevVersion,
     this.version = version,

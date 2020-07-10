@@ -1,0 +1,40 @@
+[
+    {
+        "merchant_supplied_id": "c3451778-c4d1-4581-8f0e-36e839a8e778", // alias found // c2dae61d-9807-47e6-b187-8d02a933cc60#596da475-b46c-4699-b47e-165d8369bb55#e6358576-9404-4fe5-b083-419c28ed28f9
+        "response": "Not Found"
+    },
+    {
+        "merchant_supplied_id": "6bf59d78-c6a1-43c8-9501-6e5f8505828e", // alias found // c2dae61d-9807-47e6-b187-8d02a933cc60#596da475-b46c-4699-b47e-165d8369bb55#e6358576-9404-4fe5-b083-419c28ed28f9
+        "response": "Success"
+    },
+    {
+        "merchant_supplied_id": "f10436cf-aaa1-4c95-8f2f-f583c674aa8d", // alias found // c2dae61d-9807-47e6-b187-8d02a933cc60#596da475-b46c-4699-b47e-165d8369bb55#e6358576-9404-4fe5-b083-419c28ed28f9
+        "response": "Not Found" // catalogEntryId#394e32ed-aea2-4857-85e4-2c1d044e313e
+    },
+    {
+        "merchant_supplied_id": "1ceccf5e-4506-44f7-b68d-959d819915a8", // found in alias table
+        "response": "Not Found" // catalogEntryId#394e32ed-aea2-4857-85e4-2c1d044e313e
+    },
+    {
+        "merchant_supplied_id": "758d5a12-caa5-4cc1-bf2e-e4878aac1da1", // found in alias table
+        "response": "Success" // catalogEntryId#394e32ed-aea2-4857-85e4-2c1d044e313e
+    }
+]
+
+[
+    {
+        "merchant_supplied_id": "c3451778-c4d1-4581-8f0e-36e839a8e778",
+        "response": "Not Found"
+    },
+    {
+        "merchant_supplied_id": "f10436cf-aaa1-4c95-8f2f-f583c674aa8d",
+        "response": "Not Found"
+    },
+    {
+        "merchant_supplied_id": "1ceccf5e-4506-44f7-b68d-959d819915a8",
+        "response": "Not Found"
+    }
+]
+
+"c2dae61d-9807-47e6-b187-8d02a933cc60#c1ceccf5e-4506-44f7-b68d-959d819915a8"
+"c2dae61d-9807-47e6-b187-8d02a933cc60#c3451778-c4d1-4581-8f0e-36e839a8e778"

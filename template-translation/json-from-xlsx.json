@@ -1,0 +1,709 @@
+[
+    {
+        "PhraseID": "QID2_QuestionText",
+        "EN": "Hi {{1}}, thanks for agreeing to participate in this follow-up survey on {{2}}. We are reaching back out to ask you a few questions as part of that study. If you have any questions, please contact {{3}}",
+        "ES-US": "Hola, {{1}}. Gracias por aceptar participar en esta encuesta de seguimiento sobre {{2}}. Nos estamos comunicando para hacerle algunas preguntas como parte de ese estudio. Si tiene alguna pregunta, póngase en contacto con {{3}}.",
+        "AR": "مرحبًا {{1}}، نشكرك على موافقتك على المشاركة في استطلاع المتابعة بشأن {{2}}. نحن نتواصل معك مرة أخرى لنطرح عليك بعض الأسئلة ضمن تلك الدراسة. إذا كانت لديك أي استفسارات، فيُرجى التواصل مع {{3}}",
+        "Farsi": "{{1}} سلام، متشکریم که موافقت کردید در این نظرسنجی پیگیری در مورد {{2}} شرکت کنید. دوباره با شما تماس گرفه ایم تا چند سؤال را که بخشی از این تحقیق هستند مطرح کنیم. اگر سؤالی دارید لطفاً با {{3}} تماس بگیرید",
+        "FR": "Bonjour {{1}}, merci d’avoir accepté de participer à cette étude de suivi concernant {{2}}. Nous revenons vers vous pour vous poser quelques questions dans le cadre de cette étude. Si vous avez des questions, veuillez contacter {{3}}",
+        "RU": "Здравствуйте, {{1}}! Спасибо, что согласились принять участие в этом дополнительном опросе о {{2}}. Мы обратились к Вам, чтобы задать несколько вопросов в рамках этого исследования. Если у Вас возникли вопросы, обратитесь к нам {{3}}",
+        "Swahili": "Hujambo {{1}}, asante kwa kukubali kushiriki katika utafiti huu wa kufuatilia tarehe {{2}}. Tunawasiliana nawe ili tukuulize maswali machache kama sehemu ya utafiti huo. Iwapo una maswali yoyote, tafadhali wasiliana na {{3}}"
+    },
+    {
+        "PhraseID": "QID3_QuestionText",
+        "EN": "In the past four weeks, which of these descriptions best applies to what you have been doing? Please respond with the number of your response.",
+        "ES-US": "En las últimas cuatro semanas, ¿cuál de estas descripciones se aplica mejor a lo que ha estado haciendo? Responda con el número de la respuesta.",
+        "AR": "أي من هذه الأوصاف ينطبق بشكل أفضل على ما كنت تقوم به خلال الأسابيع الأربعة الماضية؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "کدام یک از این موارد به بهترین شکل توصیف می کند که در چهار هفته گذشته چه کاری انجام داده اید؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Quelles ont été vos activités au cours des quatre dernières semaines ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Что из перечисленного ниже точнее всего характеризует Ваш род деятельности в течение последних четырех недель? Предоставьте ответ в виде номера.",
+        "Swahili": "Katika kipindi cha wiki nne zilizopita, ni maelezo yapi kati ya yafuatayo yanaelezea vizuri zaidi jambo ambalo umekuwa ukilifanya? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID3_Choice1",
+        "EN": "In paid work",
+        "ES-US": "Trabajo pagado",
+        "AR": "في عمل بأجر",
+        "Farsi": "در زمینه کار در ازای دریافت حقوق",
+        "FR": "Travail rémunéré",
+        "RU": "Оплачиваемая работа",
+        "Swahili": "Kazi ya Kulipwa"
+    },
+    {
+        "PhraseID": "QID3_Choice4",
+        "EN": "In school",
+        "ES-US": "Estudiando",
+        "AR": "في المدرسة",
+        "Farsi": "در مدرسه",
+        "FR": "Écolier(ère)/étudiant(e)",
+        "RU": "Учеба",
+        "Swahili": "Niko shuleni"
+    },
+    {
+        "PhraseID": "QID3_Choice5",
+        "EN": "Unemployed and actively looking for a job",
+        "ES-US": "Sin empleo y estuve buscando trabajo activamente",
+        "AR": "غير موظف وتبحث بنشاط عن وظيفة",
+        "Farsi": "بیکار و در حال جستجوی کار",
+        "FR": "Au chômage et en recherche active d’un emploi",
+        "RU": "Безработный (-ая), но активно занимаюсь поиском работы",
+        "Swahili": "Sijaajiriwa na nimekuwa nikitafuta kazi"
+    },
+    {
+        "PhraseID": "QID3_Choice6",
+        "EN": "Unemployed and not actively looking for a job",
+        "ES-US": "Sin empleo, pero no estuve buscando trabajo activamente",
+        "AR": "غير موظف ولا تبحث بنشاط عن وظيفة",
+        "Farsi": "بیکار و عدم جستجوی کار",
+        "FR": "Au chômage et ne recherchant pas activement un emploi",
+        "RU": "Безработный и не ищу работу активно",
+        "Swahili": "Sijaajiriwa lakini sijakuwa nikitafuta kazi"
+    },
+    {
+        "PhraseID": "QID3_Choice7",
+        "EN": "Other",
+        "ES-US": "Otro",
+        "AR": "غير ذلك",
+        "Farsi": "سایر موارد",
+        "FR": "Autre",
+        "RU": "Другое",
+        "Swahili": "Nyingine"
+    },
+    {
+        "PhraseID": "QID4_QuestionText",
+        "EN": "In the past four weeks, how many hours did you usually work each week? Please respond with the number of your response.",
+        "ES-US": "En las últimas cuatro semanas, ¿cuántas horas trabajó habitualmente cada semana? Responda con el número de la respuesta.",
+        "AR": "كم عدد الساعات التي كنت تعملها عادة كل أسبوع خلال الأسابيع الأربعة الماضية؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "در چهار هفته گذشته به طور معمول هفته ای چند ساعت کار کرده اید؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Au cours des quatre dernières semaines, combien d’heures avez-vous passé généralement au travail chaque semaine ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Сколько часов в неделю Вы обычно работали за последние четыре недели? Предоставьте ответ в виде номера.",
+        "Swahili": "Katika kipindi cha wiki nne zilizopita, ulifanya kazi kwa saa ngapi kila wiki? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID4_Choice1",
+        "EN": "Less than 10",
+        "ES-US": "Menos de 10",
+        "AR": "أقل من 10",
+        "Farsi": "کمتر از 10 ساعت",
+        "FR": "Moins de 10 heures",
+        "RU": "Более 10",
+        "Swahili": "Chini ya saa 10"
+    },
+    {
+        "PhraseID": "QID4_Choice4",
+        "EN": "10 - 20",
+        "ES-US": "De 10 a 20",
+        "AR": "10 - 20",
+        "Farsi": "10 تا 20 ساعت",
+        "FR": "Entre 10 et 20 heures",
+        "RU": "10—20",
+        "Swahili": "10 - 20"
+    },
+    {
+        "PhraseID": "QID4_Choice5",
+        "EN": "20 - 35",
+        "ES-US": "De 20 a 35",
+        "AR": "20 - 35",
+        "Farsi": "20 تا 35 ساعت",
+        "FR": "Entre 20 et 35 heures",
+        "RU": "20—35",
+        "Swahili": "20 - 35"
+    },
+    {
+        "PhraseID": "QID4_Choice6",
+        "EN": "35 or more",
+        "ES-US": "35 o más",
+        "AR": "35 أو أكثر",
+        "Farsi": "35 ساعت یا بیشتر",
+        "FR": "35 heures ou plus",
+        "RU": "35 или более",
+        "Swahili": "Saa 35 au zaidi"
+    },
+    {
+        "PhraseID": "QID5_QuestionText",
+        "EN": "In the past four weeks, have you received any money from unemployment benefits? Please respond with the number of your response.",
+        "ES-US": "En las últimas cuatro semanas, ¿recibió dinero de los beneficios por desempleo? Responda con el número de la respuesta.",
+        "AR": "خلال الأسابيع الأربعة الماضية، هل حصلت على أي أموال من مخصصات البطالة؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "آیا در چهار هفته گذشته مبلغی از محل مزایای بیکاری دریافت کرده اید؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Au cours des quatre dernières semaines, avez-vous reçu des allocations chômage ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Вы получали какие-либо выплаты по безработице за последние четыре недели? Предоставьте ответ в виде номера.",
+        "Swahili": "Katika kipindi cha wiki nne zilizopita, je, umepokea pesa zozote za manufaa ya wasiokuwa na ajira? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID5_Choice1",
+        "EN": "Yes",
+        "ES-US": "Sí",
+        "AR": "نعم",
+        "Farsi": "بله",
+        "FR": "Oui",
+        "RU": "Да",
+        "Swahili": "Ndiyo"
+    },
+    {
+        "PhraseID": "QID5_Choice4",
+        "EN": "No",
+        "ES-US": "No",
+        "AR": "لا",
+        "Farsi": "خیر",
+        "FR": "Non",
+        "RU": "Нет",
+        "Swahili": "Hapana"
+    },
+    {
+        "PhraseID": "QID6_QuestionText",
+        "EN": "What was the total amount of unemployment compensation you received over the last four weeks? Please enter the total amount in dollars.",
+        "ES-US": "¿Cuál fue la cantidad total de compensación por desempleo que recibió en las últimas cuatro semanas? Escriba la cantidad total en dólares.",
+        "AR": "كم كان المبلغ الإجمالي لتعويضات البطالة الذي تلقيته خلال الأسابيع الأربعة الماضية؟ يُرجى إدخال المبلغ الإجمالي بالدولار.",
+        "Farsi": "مبلغ کل جبران بیکاری که در طول چهار هفته گذشته دریافت کرده اید چقدر بوده است؟ مبلغ کل را به دلار وارد کنید.",
+        "FR": "Quel est le montant total des allocations chômage que vous avez perçues au cours des quatre dernières semaines ? Veuillez saisir le montant total en dollars.",
+        "RU": "Каковая общая сумма пособия по безработице, полученного Вами за последние четыре недели? Укажите общую сумму в долларах.",
+        "Swahili": "Je, umepokea jumla ya kiasi gani cha pesa za fidia ya wasio na ajira katika kipindi cha wiki nne zilizopita? Tafadhali weka kiasi cha jumla katika dola."
+    },
+    {
+        "PhraseID": "QID7_QuestionText",
+        "EN": "In the last four weeks, which of the below best describes your living situation? Please respond with the number of your response.",
+        "ES-US": "En las últimas cuatro semanas, ¿cuál de las opciones de abajo describe mejor su situación de vivienda? Responda con el número de la respuesta.",
+        "AR": "خلال الأسابيع الأربعة الماضية، أيٌّ مما يلي يعتبر أفضل وصفٍ لوضعِك المعيشي؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "در چهار هفته گذشته، کدامیک از موارد زیر به بهترین شکل محل زندگی تان را توصیف می کند؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Comment décririez-vous votre situation en matière de logement pendant les quatre dernières semaines ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Что из приведенного ниже точнее всего характеризует Ваше жилищное положение за последние четыре недели? Предоставьте ответ в виде номера.",
+        "Swahili": "Katika kipindi cha wiki nne zilizopita, ni kauli gani kati ya zifuatazo inaelezea vizuri zaidi hali yako ya maisha? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID7_Choice1",
+        "EN": "House ",
+        "ES-US": "Casa ",
+        "AR": "منزل ",
+        "Farsi": "خانه ",
+        "FR": "Maison ",
+        "RU": "Дом ",
+        "Swahili": "Nyumba "
+    },
+    {
+        "PhraseID": "QID7_Choice4",
+        "EN": "Apartment",
+        "ES-US": "Apartamento",
+        "AR": "شقة",
+        "Farsi": "آپارتمان",
+        "FR": "Appartement",
+        "RU": "Квартира",
+        "Swahili": "Chumba cha kupangisha kwenye fleti"
+    },
+    {
+        "PhraseID": "QID7_Choice5",
+        "EN": "Mobile home",
+        "ES-US": "Casa rodante",
+        "AR": "منزل متنقِّل",
+        "Farsi": "خانه متحرک",
+        "FR": "Résidence mobile",
+        "RU": "Дом на колесах",
+        "Swahili": "Nyumba inayoweza kuhamishwa "
+    },
+    {
+        "PhraseID": "QID7_Choice6",
+        "EN": "Other type of housing",
+        "ES-US": "Otro tipo de vivienda",
+        "AR": "نوع آخر من السكن",
+        "Farsi": "انواع دیگر مسکن",
+        "FR": "Autre type de logement",
+        "RU": "Другой вид жилья",
+        "Swahili": "Aina nyingine ya nyumba"
+    },
+    {
+        "PhraseID": "QID7_Choice7",
+        "EN": "No housing (homeless)",
+        "ES-US": "Sin hogar",
+        "AR": "لا يوجد سكن (مُشرَّد)",
+        "Farsi": "خانه نداشته ام (بی خانمان)",
+        "FR": "Sans-abri",
+        "RU": "Жилье отсутствует (бездомный)",
+        "Swahili": "Sikuwana nyumba (sikuwa na makao)"
+    },
+    {
+        "PhraseID": "QID8_QuestionText",
+        "EN": "Is your current house, apartment, or mobile home…? Please respond with the number of your response.",
+        "ES-US": "¿Es su casa, departamento o casa rodante actual…? Responda con el número de la respuesta.",
+        "AR": "هل منزلك أو شقتك أو منزلك المتنقل الحالي...؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "کدامیک از موارد زیر در مورد خانه، آپارتمان، خانه متحرک، ... شما صدق می کند؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Votre maison, appartement ou résidence mobile actuel(le) est-il (elle)… ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Ваш нынешний дом, квартира или дом на колесах… Предоставьте ответ в виде номера.",
+        "Swahili": "Je, ni kauli gani inaelezea nyumba, chumba kwenye fleti au nyumba inayoweza kuhamishwa unamokaa kwa sasa…? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID8_Choice1",
+        "EN": "Owned free and clear ",
+        "ES-US": "Propiedad suya sin deudas ni obligaciones ",
+        "AR": "مملوكٌ ملكية حرة وخالصة ",
+        "Farsi": "به صورت رایگان در اختیارتان قرار داده شده بود ",
+        "FR": "Une pleine propriété libre de toutes charges ",
+        "RU": "Принадлежит Вам без каких бы то ни было обременений ",
+        "Swahili": "Ninaimiliki kikamilifu bila deni "
+    },
+    {
+        "PhraseID": "QID8_Choice4",
+        "EN": "Owned with a mortgage or loan (including home equity loans)",
+        "ES-US": "Propiedad suya con una hipoteca o un préstamo (incluyendo los préstamos hipotecarios)",
+        "AR": "مملوكٌ برهن عقاري أو قرض (بما يتضمن القروض المأخوذة بضمان المنزل)",
+        "Farsi": "از طریق دریافت وام آن را خریده اید (از جمله وام های سرمایه خالص)",
+        "FR": "Une propriété avec une hypothèque ou un prêt immobilier (y compris les prêts sur valeur domiciliaire)",
+        "RU": "Находится у Вас на ипотечных или кредитных условиях (включая кредит под залог домашнего имущества)",
+        "Swahili": "Ninaimiliki kwa mkopo (ikiwa ni pamoja na mikopo ya thamani sawa na nyumba unamoishi)"
+    },
+    {
+        "PhraseID": "QID8_Choice5",
+        "EN": "Rented",
+        "ES-US": "Alquilado",
+        "AR": "مستأجَر",
+        "Farsi": "کرایه کرده بودید",
+        "FR": "Une location",
+        "RU": "Находится у Вас в аренде",
+        "Swahili": "Nimekodi"
+    },
+    {
+        "PhraseID": "QID8_Choice6",
+        "EN": "Occupied without payment of rent",
+        "ES-US": "Usted lo ocupa sin pagar el alquiler",
+        "AR": "إشغال دون دفع إيجار",
+        "Farsi": "بدون پرداخت کرایه در آنجا زندگی می کردید",
+        "FR": "Une occupation à titre gratuit",
+        "RU": "Занят Вашей семьей без арендной платы",
+        "Swahili": "Nimekaa bila kulipa kodi"
+    },
+    {
+        "PhraseID": "QID9_QuestionText",
+        "EN": "Did you pay your last month’s rent or mortgage on time? Please respond with the number of your response.",
+        "ES-US": "¿Pagó a tiempo el alquiler o la hipoteca del mes pasado? Responda con el número de la respuesta.",
+        "AR": "هل سددت الإيجار أو القسط العقاري الخاص بالشهر الماضي في موعده؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "آیا کرایه یا مبلغ رهن ماه گذشته را به موقع پرداخت کرده اید؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Avez-vous réglé votre loyer ou votre prêt immobilier du mois dernier dans les délais prévus ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Вы вовремя уплатили свою арендную плату или ипотеку в прошлом месяце? Предоставьте ответ в виде номера.",
+        "Swahili": "Je, ulilipa kodi au mkopo wako wa mwezi uliyopita kwa wakati unaofaa? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID9_Choice1",
+        "EN": "Yes",
+        "ES-US": "Sí",
+        "AR": "نعم",
+        "Farsi": "بله",
+        "FR": "Oui",
+        "RU": "Да",
+        "Swahili": "Ndiyo"
+    },
+    {
+        "PhraseID": "QID9_Choice4",
+        "EN": "No",
+        "ES-US": "No",
+        "AR": "لا",
+        "Farsi": "خیر",
+        "FR": "Non",
+        "RU": "Нет",
+        "Swahili": "Hapana"
+    },
+    {
+        "PhraseID": "QID9_Choice5",
+        "EN": "Payment was deferred",
+        "ES-US": "El pago se aplazó",
+        "AR": "تم تأجيل السداد",
+        "Farsi": "پرداخت به تعویق افتاده است",
+        "FR": "Le paiement a été différé",
+        "RU": "Платеж был отсрочен",
+        "Swahili": "Malipo yaliondolewa"
+    },
+    {
+        "PhraseID": "QID10_QuestionText",
+        "EN": "In the last four weeks, which of these statements best describes the food eaten in your household? Please respond with the number of your response.",
+        "ES-US": "En las últimas cuatro semanas, ¿cuál de estas afirmaciones describe mejor la comida de su grupo familiar? Responda con el número de la respuesta.",
+        "AR": "في الأسابيع الأربعة الماضية، أي من العبارات التالية تقدم أفضل وصف للطعام الذي تتناوله أسرتك؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "در چهار هفته گذشته، کدامیک از موارد زیر به بهترین شکل توصیف می کند که خانواده تان چه تغذیه ای داشته اند؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Comment décririez-vous la situation de votre foyer en termes d’alimentation pendant les quatre dernières semaines ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Что из приведенного ниже точнее всего характеризует Ваше питание за последние четыре недели? Предоставьте ответ в виде номера.",
+        "Swahili": "Katika kipindi cha wiki nne zilizopita, ni kauli gani kati ya zifuatazo inaelezea vizuri zaidi chakula kilicholiwa nyumbani mwako? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID10_Choice1",
+        "EN": "Enough of the kinds of food (I/we) wanted to eat",
+        "ES-US": "Suficiente de los tipos de comida que quise/quisimos comer",
+        "AR": "كمية كافية من أنواع الطعام التي (أرغب/نرغب) في تناولها",
+        "Farsi": "نوع غذایی که خورده ایم کافی بوده است",
+        "FR": "Suffisamment d’aliments que je voulais/nous voulions consommer",
+        "RU": "У меня/нас было достаточно еды, и она была разнообразной",
+        "Swahili": "Chakula cha kutosha cha aina nilizotaka/tulizotaka kula"
+    },
+    {
+        "PhraseID": "QID10_Choice4",
+        "EN": "Enough, but not always the kinds of food (I/we) wanted to eat",
+        "ES-US": "Suficiente, pero no siempre de los tipos de comida que quise/quisimos comer",
+        "AR": "كمية كافية، ولكنها ليست دائمًا أنواع الطعام التي (أرغب/نرغب) في تناولها",
+        "Farsi": "مقدار غذایی که خورده ایم کافی بوده اما همیشه نوع غذای دلخواهمان نبوده",
+        "FR": "Suffisamment d’aliments que je voulais/nous voulions consommer, mais pas tout le temps",
+        "RU": "У меня/нас было достаточно еды, но она не всегда была разнообразной",
+        "Swahili": "Chakula cha kutosha, lakini sio aina za chakula nilizotaka/tulizotaka kula"
+    },
+    {
+        "PhraseID": "QID10_Choice5",
+        "EN": "Sometimes not enough to eat",
+        "ES-US": "A veces, no tuvimos suficiente para comer",
+        "AR": "في بعض الأحيان لا يتوافر طعام كاف",
+        "Farsi": "بعضی مواقع غذای کافی نداشتیم",
+        "FR": "Parfois pas suffisamment à manger",
+        "RU": "Иногда еды не хватало",
+        "Swahili": "Wakati mwingine sio chakula cha kutosha"
+    },
+    {
+        "PhraseID": "QID10_Choice6",
+        "EN": "Often not enough to eat",
+        "ES-US": "A menudo, no tuvimos suficiente para comer",
+        "AR": "في معظم الأحيان لا يتوافر طعام كاف",
+        "Farsi": "اغلب اوقات غذای کافی نداشتیم",
+        "FR": "Souvent pas suffisamment à manger",
+        "RU": "Часто еды не хватало",
+        "Swahili": "Mara nyingi sio chakula cha kutosha"
+    },
+    {
+        "PhraseID": "QID11_QuestionText",
+        "EN": "In the last four weeks, did you or anyone in your household get free groceries or a free meal? Please respond with the number of your response.",
+        "ES-US": "En las últimas cuatro semanas, ¿obtuvo usted o alguien de su grupo familiar compras de supermercado o una comida gratis? Responda con el número de la respuesta.",
+        "AR": "خلال الأسابيع الأربعة الماضية، هل حصلت أنت أو أي شخص في أسرتك على بقالة مجانية أو وجبة مجانية؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "آیا شما یا اعضای خانواده تان در چهار هفته گذشته غذا و مواد غذایی رایگان دریافت کرده اید؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Au cours des quatre dernières semaines, est-ce que vous ou une autre personne de votre foyer avez bénéficié de produits alimentaires ou de repas gratuits ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Получали ли Вы или член Вашей семьи бесплатные продукты питания или готовую еду за последние четыре недели? Предоставьте ответ в виде номера.",
+        "Swahili": "Katika kipindi cha wiki nne zilizopita, je, wewe au mtu yeyote katika familia yako alipata mboga na matunda au chakula cha bure? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID11_Choice1",
+        "EN": "Yes",
+        "ES-US": "Sí",
+        "AR": "نعم",
+        "Farsi": "بله",
+        "FR": "Oui",
+        "RU": "Да",
+        "Swahili": "Ndiyo"
+    },
+    {
+        "PhraseID": "QID11_Choice4",
+        "EN": "No",
+        "ES-US": "No",
+        "AR": "لا",
+        "Farsi": "خیر",
+        "FR": "Non",
+        "RU": "Нет",
+        "Swahili": "Hapana"
+    },
+    {
+        "PhraseID": "QID12_QuestionText",
+        "EN": "How confident are you that your household will be able to afford the kinds of food you need for the next four weeks? Please respond with the number of your response.",
+        "ES-US": "¿Cuánta confianza tiene en que su grupo familiar podrá pagar los tipos de comida que necesita para las próximas cuatro semanas? Responda con el número de la respuesta.",
+        "AR": "ما مدى ثقتك في أن أسرتك قادرة على تحمل تكلفة أنواع الطعام التي تحتاجها للأسابيع الأربعة القادمة؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "چقدر مطمئن هستید که خانواده تان می توانند نوع غذای مورد نیازشان را برای چهار هفته بعد تأمین کنند؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Dans quelle mesure êtes-vous certain(e) que votre foyer aura les moyens d’acheter les aliments nécessaires au cours des quatre prochaines semaines ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Насколько Вы уверены, что Ваша семья сможет покупать необходимые продукты питания в течение следующих четырех недель? Предоставьте ответ в виде номера.",
+        "Swahili": "Je, una imani kiasi gani kwamba familia yako itaweza kumudu aina za chakula mnazohitaji kwa kipindi cha wiki nne zijazo? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID12_Choice1",
+        "EN": "Not at all confident",
+        "ES-US": "Nada de confianza",
+        "AR": "لست واثقًا على الإطلاق",
+        "Farsi": "اصلاً مطمئن نیستم",
+        "FR": "Pas du tout certain(e)",
+        "RU": "Вообще не уверен (-а)",
+        "Swahili": "Sina imani hata kidogo"
+    },
+    {
+        "PhraseID": "QID12_Choice4",
+        "EN": "Somewhat confident",
+        "ES-US": "Algo de confianza",
+        "AR": "واثق إلى حد ما",
+        "Farsi": "تا حدودی مطمئن هستم",
+        "FR": "À peu près certain(e)",
+        "RU": "Отчасти уверен (-а)",
+        "Swahili": "Nina imani kwa kiasi fulani"
+    },
+    {
+        "PhraseID": "QID12_Choice5",
+        "EN": "Moderately confident",
+        "ES-US": "Confianza moderada",
+        "AR": "واثق نسبيًا",
+        "Farsi": "نسبتاً مطمئن هستم",
+        "FR": "Plutôt certain(e)",
+        "RU": "Есть определенная уверенность",
+        "Swahili": "Nina imani ya wastani"
+    },
+    {
+        "PhraseID": "QID12_Choice6",
+        "EN": "Very confident",
+        "ES-US": "Mucha confianza",
+        "AR": "واثق جدًا",
+        "Farsi": "کاملاً مطمئن هستم",
+        "FR": "Très certain(e)",
+        "RU": "Очень уверен (-а)",
+        "Swahili": "Nina imani sana"
+    },
+    {
+        "PhraseID": "QID13_QuestionText",
+        "EN": "In the last four weeks, would you say your health in general has been excellent, very good, good, fair, or poor? Please respond with the number of your response.",
+        "ES-US": "En las últimas cuatro semanas, ¿diría que su salud general fue excelente, muy buena, buena, regular o mala? Responda con el número de la respuesta.",
+        "AR": "في الأسابيع الأربعة الماضية، هل يمكنك أن تقول بأن صحتك العامة كانت بحالة ممتازة أم جيدة جدًا أم جيدة أم مقبولة أم سيئة؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "سلامت خود را در کل چطور توصیف می‌کنید؟ عالی، بسیار خوب، خوب، متوسط یا ضعیف؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Diriez-vous qu’au cours des quatre dernières semaines, votre état de santé a été globalement excellent, très bon, bon, satisfaisant ou mauvais ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Каким, по Вашему мнению, в целом было Ваше здоровье в течение последних четырех недель: отличным, очень хорошим, хорошим, удовлетворительным или плохим? Предоставьте ответ в виде номера.",
+        "Swahili": "Katika kipindi cha wiki nne zilizopita, unaweza kusema afya yako kwa jumla imekuwa nzuri kabisa, nzuri sana, nzuri, wastani au mbaya? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID13_Choice1",
+        "EN": "Excellent",
+        "ES-US": "Excelente",
+        "AR": "ممتازة",
+        "Farsi": "عالی",
+        "FR": "Excellent",
+        "RU": "Отличное",
+        "Swahili": "Nzuri kabisa"
+    },
+    {
+        "PhraseID": "QID13_Choice4",
+        "EN": "Very good",
+        "ES-US": "Muy buena",
+        "AR": "جيدة جدًا",
+        "Farsi": "بسیار خوب",
+        "FR": "Très bon",
+        "RU": "Очень хорошее",
+        "Swahili": "Nzuri sana"
+    },
+    {
+        "PhraseID": "QID13_Choice5",
+        "EN": "Good",
+        "ES-US": "Buena",
+        "AR": "جيدة",
+        "Farsi": "خوب",
+        "FR": "Bon",
+        "RU": "Хорошее",
+        "Swahili": "Nzuri"
+    },
+    {
+        "PhraseID": "QID13_Choice6",
+        "EN": "Fair",
+        "ES-US": "Regular",
+        "AR": "مقبولة",
+        "Farsi": "متوسط",
+        "FR": "Satisfaisant",
+        "RU": "Удовлетворительное",
+        "Swahili": "Wastani"
+    },
+    {
+        "PhraseID": "QID13_Choice7",
+        "EN": "Poor",
+        "ES-US": "Mala",
+        "AR": "سيئة",
+        "Farsi": "ضعیف",
+        "FR": "Mauvais",
+        "RU": "Плохое",
+        "Swahili": "Mbaya"
+    },
+    {
+        "PhraseID": "QID14_QuestionText",
+        "EN": "During the last four weeks, about how often did you feel nervous? Please respond with the number of your response. ",
+        "ES-US": "En las últimas cuatro semanas, ¿con qué frecuencia se sintió nervioso? Responda con el número de la respuesta. ",
+        "AR": "خلال الأسابيع الأربعة الماضية، كم مرة شعرت بالانفعال؟ يُرجى الرد برقم إجابتك. ",
+        "Farsi": "در چهار هفته گذشته چقدر عصبی بوده اید؟ لطفاً با شماره پاسختان، پاسخ دهید. ",
+        "FR": "Au cours des quatre dernières semaines, avez-vous ressenti de l’anxiété... ? Veuillez répondre en indiquant le numéro de votre réponse. ",
+        "RU": "Как часто в течение последних четырех недель Вы нервничали? Предоставьте ответ в виде номера. ",
+        "Swahili": "Katika kipindi cha wiki nne zilizopita, ulihisi kuwa na wasiwasi takriban mara ngapi? Tafadhali jibu kwa nambari ya jawabu lako. "
+    },
+    {
+        "PhraseID": "QID14_Choice1",
+        "EN": "All of the time",
+        "ES-US": "Todo el tiempo",
+        "AR": "طوال الوقت",
+        "Farsi": "در همه مواقع",
+        "FR": "En permanence",
+        "RU": "Постоянно",
+        "Swahili": "Kila wakati"
+    },
+    {
+        "PhraseID": "QID14_Choice4",
+        "EN": "Most of the time",
+        "ES-US": "Casi todo el tiempo",
+        "AR": "معظم الوقت",
+        "Farsi": "در اکثر مواقع",
+        "FR": "Quasiment tout le temps",
+        "RU": "Большую часть времени",
+        "Swahili": "Mara nyingi"
+    },
+    {
+        "PhraseID": "QID14_Choice5",
+        "EN": "Some of the time",
+        "ES-US": "A veces",
+        "AR": "بعض الوقت",
+        "Farsi": "بعضی مواقع",
+        "FR": "Parfois",
+        "RU": "Иногда",
+        "Swahili": "Wakati mwingine"
+    },
+    {
+        "PhraseID": "QID14_Choice6",
+        "EN": "A little of the time",
+        "ES-US": "Casi nunca",
+        "AR": "القليل من الوقت",
+        "Farsi": "خیلی کم",
+        "FR": "Un peu",
+        "RU": "Редко",
+        "Swahili": "Mara chache"
+    },
+    {
+        "PhraseID": "QID14_Choice7",
+        "EN": "None of the time",
+        "ES-US": "Nunca",
+        "AR": "لم يحدث مطلقًا",
+        "Farsi": "هرگز",
+        "FR": "Pas du tout",
+        "RU": "Никогда",
+        "Swahili": "Sikuhisi wasiwasi kamwe"
+    },
+    {
+        "PhraseID": "QID15_QuestionText",
+        "EN": "At any time in the last four weeks, did you delay getting medical care? Please respond with the number of your response.",
+        "ES-US": "En algún momento de las últimas cuatro semanas, ¿retrasó la obtención de atención médica? Responda con el número de la respuesta.",
+        "AR": "هل تأخرت في الحصول على الرعاية الطبية في أي وقت خلال الأسابيع الأربعة الماضية؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "آیا در هیچ زمانی در چهار هفته گذشته، خدمات پزشکی را با تأخیر دریافت کردید؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "À un moment quelconque au cours des quatre dernières semaines, avez-vous retardé une prise en charge médicale ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Вы откладывали обращение за медицинской помощью за последние четыре недели? Предоставьте ответ в виде номера.",
+        "Swahili": "Je, kuna wakati katika kipindi cha wiki nne zilizopita ulipochelewa kupata huduma za afya? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID15_Choice1",
+        "EN": "Yes ",
+        "ES-US": "Sí ",
+        "AR": "نعم ",
+        "Farsi": "بله ",
+        "FR": "Oui ",
+        "RU": "Да ",
+        "Swahili": "Ndiyo "
+    },
+    {
+        "PhraseID": "QID15_Choice4",
+        "EN": "No",
+        "ES-US": "No",
+        "AR": "لا",
+        "Farsi": "خیر",
+        "FR": "Non",
+        "RU": "Нет",
+        "Swahili": "Hapana"
+    },
+    {
+        "PhraseID": "QID16_QuestionText",
+        "EN": "At any time in the last four weeks, did you need medical care for something other than COVID-19, but did not get it? Please respond with the number of your response.",
+        "ES-US": "En algún momento de las últimas cuatro semanas, ¿necesitó atención médica por otro motivo que no fuera el COVID-19, pero no la obtuvo? Responda con el número de la respuesta.",
+        "AR": "هل احتجت إلى الرعاية الطبية لشيء آخر غير فيروس كورونا (COVID-19) ولكنك لم تحصل عليها، في أي وقت خلال الأسابيع الأربعة الماضية؟ يُرجى الرد برقم إجابتك.",
+        "Farsi": "آیا در هیچ زمانی در چهار هفته گذشته به خدمات مراقبت پزشکی برای موردی بجز کووید 19 نیاز داشته اید اما به خدمات دسترسی پیدا نکردید؟ لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "À un moment quelconque au cours des quatre dernières semaines, avez-vous eu besoin d’une prise en charge médicale pour un autre problème que la COVID-19, mais vous n’avez pas consulté ? Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Вам требовалась медицинская помощь не по поводу COVID-19, но Вы ее не получили за последние четыре недели? Предоставьте ответ в виде номера.",
+        "Swahili": "Je, kuna wakati katika kipindi cha wiki nne zilizopita ulipohitaji huduma za matibabu kwa ajili ya kitu kingine isipokuwa COVID-19, lakini hukuzipata? Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID16_Choice1",
+        "EN": "Yes",
+        "ES-US": "Sí",
+        "AR": "نعم",
+        "Farsi": "بله",
+        "FR": "Oui",
+        "RU": "Да",
+        "Swahili": "Ndiyo"
+    },
+    {
+        "PhraseID": "QID16_Choice2",
+        "EN": "No",
+        "ES-US": "No",
+        "AR": "لا",
+        "Farsi": "خیر",
+        "FR": "Non",
+        "RU": "Нет",
+        "Swahili": "Hapana"
+    },
+    {
+        "PhraseID": "QID17_QuestionText",
+        "EN": "In the past four weeks, how have children in this household received education from their school?  Please respond with the number of your response.",
+        "ES-US": "En las últimas cuatro semanas, ¿cómo recibieron educación los niños de su grupo familiar por parte de la escuela?  Responda con el número de la respuesta.",
+        "AR": "في الأسابيع الأربعة الماضية، كيف تلقى الأطفال في هذه الأسرة التعليم من مدرستهم؟  يُرجى الرد برقم إجابتك.",
+        "Farsi": "آیا کودکان حاضر در خانواده شما در چهار هفته گذشته از طرف مدرسه خدمات آموزشی دریافت کردند؟  لطفاً با شماره پاسختان، پاسخ دهید.",
+        "FR": "Au cours des quatre dernières semaines, comment l’établissement scolaire des enfants de votre foyer leur a-t-il été dispensé ?  Veuillez répondre en indiquant le numéro de votre réponse.",
+        "RU": "Как за последние четыре недели дети в Вашей семье получали школьное образование?  Предоставьте ответ в виде номера.",
+        "Swahili": "Je, katika kipindi cha wiki nne zilizopita, watoto katika familia hii wamepokea elimu vipi?   Tafadhali jibu kwa nambari ya jawabu lako."
+    },
+    {
+        "PhraseID": "QID17_Choice1",
+        "EN": "In-person instruction at school ",
+        "ES-US": "Instrucción en persona en la escuela ",
+        "AR": "تعليم بالحضور الشخصي في المدرسة ",
+        "Farsi": "دستورالعمل های حضوری در مدرسه دریافت کردند ",
+        "FR": "Enseignement présentiel dans l’établissement scolaire ",
+        "RU": "Очно в школе ",
+        "Swahili": "Kufundishwa shuleni "
+    },
+    {
+        "PhraseID": "QID17_Choice9",
+        "EN": "Distance learning only (online or using paper materials)",
+        "ES-US": "Solo aprendizaje a distancia (en línea o con materiales en papel)",
+        "AR": "تعلم عن بُعد فقط (عبر الإنترنت أو باستخدام موادٍ ورقية)",
+        "Farsi": "فقط آموزش از راه دور داشتند (آنلاین یا با استفاده از مطالب کاغذی)",
+        "FR": "Enseignement à distance seulement (en ligne ou avec des documents en format papier)",
+        "RU": "Только дистанционно (через интернет или с помощью бумажных учебных материалов)",
+        "Swahili": "Kusoma wakiwa mbali (mtandaoni au kwa kutumia vitabu)"
+    },
+    {
+        "PhraseID": "QID17_Choice10",
+        "EN": "Both in-person instruction and distance learning ",
+        "ES-US": "Instrucción en persona y aprendizaje a distancia ",
+        "AR": "كل من التعليم بالحضور الشخصي والتعلُّم عن بعد ",
+        "Farsi": "هم دستورالعمل فردی و هم آموزش از راه دور داشتند ",
+        "FR": "Un enseignement en présentiel et à distance ",
+        "RU": "И очно, и дистанционно ",
+        "Swahili": "Kufundishwa shuleni na kusoma wakiwa mbali kwa pamoja "
+    },
+    {
+        "PhraseID": "QID17_Choice11",
+        "EN": "Neither in-person instruction nor distance learning ",
+        "ES-US": "Ni instrucción en persona ni aprendizaje a distancia ",
+        "AR": "لا تعليم بالحضور الشخصي ولا تعلُّم عن بعد ",
+        "Farsi": "نه دستورالعمل فردی و نه آموزش از راه دور داشتند ",
+        "FR": "Ni en présentiel ni par enseignement à distance ",
+        "RU": "Ни очно, ни дистанционно ",
+        "Swahili": "Hawajafundishwa shuleni wala kusoma wakiwa mbali "
+    },
+    {
+        "PhraseID": "QID17_Choice12",
+        "EN": "School closed due to scheduled vacation or break",
+        "ES-US": "La escuela cerró debido a las vacaciones o el receso programados",
+        "AR": "المدرسة مغلقة بسبب فترة راحة أو عُطلة مُجدولة",
+        "Farsi": "مدرسه به خاطر وقفه یا تعطیلی مشخص شده، تعطیل بود",
+        "FR": "L’établissement scolaire a fermé en raison des vacances qui étaient prévues",
+        "RU": "Школа не работала из-за плановых каникул или перерыва",
+        "Swahili": "Shule zilifungwa kwa ajili ya likizo au muda wa mapumziko uliopangwa"
+    },
+    {
+        "PhraseID": "QID18_QuestionText",
+        "EN":"Which type of distance learning education have your children received?Please respond with the number of your response.",
+        "ES-US":"¿Qué tipo de educación a distancia han recibido sus hijos?Responda con el número de la respuesta.
+","AR":"ما نوع التعليم عن بُعد الذي تلقاه أطفالك؟
+يُرجى الرد برقم إجابتك.
+
+
+","Farsi":"
+فرزندتان چه نوع آموزش از راه دوری دریافت کرد؟
+لطفاً با شماره پاسختان، پاسخ دهید.
+
+","FR":"
+Quel type d’enseignement à distance vos enfants ont-ils reçu ?
+
+Veuillez répondre en indiquant le numéro de votre réponse.
+
+","RU":"
+Какое именно дистанционное обучение проходили Ваши дети?
+
+Предоставьте ответ в виде номера.
+
+","Swahili":"
+Watoto wako wamepokea aina gani ya elimu ya kujifunza wakiwa mbali?
+
+ Tafadhali jibu kwa nambari ya jawabu lako.
+
+"},{"PhraseID":"QID18_Choice1","EN":"Online only (self-paced or real-time)","ES-US":"Solo en línea (al propio ritmo o en tiempo real)","AR":"عبر الإنترنت فقط (بتحكُّم من الدارس أو في الوقت الفعلي)","Farsi":"فقط به صورت آنلاین (بر اساس سرعت شخصی دانش آموز یا همزمان)","FR":"Uniquement en ligne (en autonomie ou en temps réel)","RU":"Только через интернет (уроки в записи или в режиме реального времени)","Swahili":"Mtandaoni pekee (ya kujielekeza wenyewe au katika muda halisi)"},{"PhraseID":"QID18_Choice4","EN":"Paper materials only","ES-US":"Solo con materiales en papel","AR":"موادٌ ورقية فقط","Farsi":"فقط مطالب کاغذی در اختیارش بود","FR":"Uniquement avec des documents en format papier","RU":"Только с помощью бумажных учебных материалов","Swahili":"Vitabu pekee"},{"PhraseID":"QID18_Choice5","EN":"Both online and paper materials","ES-US":"En línea y materiales en papel","AR":"كلُّ من المواد الورقية والمواد المتاحة عبر الإنترنت","Farsi":"هم مطالب کاغذی و هم آنلاین","FR":"À la fois en ligne et avec des documents en format papier","RU":"И через интернет, и с помощью бумажных учебных материалов","Swahili":"Mtandaoni na kwa kutumia vitabu kwa pamoja"},{"PhraseID":"QID22_QuestionText","EN":"How often is the Internet available to children for educational purposes? Please respond with the number of your response.","ES-US":"¿Con qué frecuencia está disponible la conexión a Internet para los niños, para educación? Responda con el número de la respuesta.","AR":"ما مدى توافر الإنترنت بالنسبة للأطفال من أجل الأغراض التعليميَّة؟ يُرجى الرد برقم إجابتك.","Farsi":"هرچند وقت یک بار برای اهداف آموزشی، اینترنت در اختیار کودکان قرار می گیرد؟ لطفاً با شماره پاسختان، پاسخ دهید.","FR":"Comment les enfants peuvent-ils accéder à Internet dans le cadre de leur éducation ? Veuillez répondre en indiquant le numéro de votre réponse.","RU":"Как часто Ваши дети могут пользоваться интернетом в образовательных целях? Предоставьте ответ в виде номера.","Swahili":"Je, intaneti inapatikana mara ngapi kwa watoto kwa ajili ya masomo? Tafadhali jibu kwa nambari ya jawabu lako."},{"PhraseID":"QID22_Choice1","EN":"Always available","ES-US":"Siempre está disponible","AR":"متوافر دائمًا","Farsi":"همیشه در دسترس است","FR":"En permanence","RU":"Всегда","Swahili":"Inapatikana kila wakati"},{"PhraseID":"QID22_Choice4","EN":"Usually available","ES-US":"Generalmente está disponible","AR":"متوافر عادةً","Farsi":"معمولاً در دسترس است","FR":"Quasiment tout le temps","RU":"Обычно","Swahili":"Inapatikana kwa kawaida"},{"PhraseID":"QID22_Choice5","EN":"Sometimes available","ES-US":"A veces está disponible","AR":"متوافر أحيانًا","Farsi":"بعضی اوقات در دسترس است","FR":"Parfois","RU":"Иногда","Swahili":"Inapatikana wakati mwingine"},{"PhraseID":"QID22_Choice6","EN":"Rarely available","ES-US":"Rara vez está disponible","AR":"نادرًا ما يتوافر","Farsi":"به ندرت در دسترس است","FR":"Rarement","RU":"Редко","Swahili":"Inapatikana kwa nadra"},{"PhraseID":"QID22_Choice7","EN":"Never available","ES-US":"Nunca está disponible","AR":"لا يتوافر أبدًا","Farsi":"هرگز در دسترس نبوده است","FR":"Jamais","RU":"Никогда","Swahili":"Haipatikanai kamwe"},{"PhraseID":"QID21_QuestionText","EN":"Thank you for your responses. We will contact you again next month. ","ES-US":"Gracias por sus respuestas. Nos comunicaremos nuevamente el mes que viene. ","AR":"شكرًا لك على إجاباتك. سنتصل بك مرة أخرى خلال الشهر المقبل. ","Farsi":"متشکریم که پاسخ دادید. ماه بعد دوباره با شما تماس می گیریم. ","FR":"Nous vous remercions de vos réponses. Nous vous contacterons à nouveau le mois prochain. ","RU":"Спасибо за ответы! Мы свяжемся с Вами вновь в следующем месяце. ","Swahili":"Asante kwa majibu yako, Tutawasiliana nawe tena mwezi ujao. "}]

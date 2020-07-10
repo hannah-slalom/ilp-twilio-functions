@@ -23,14 +23,8 @@ var jwtClient = new google.auth.JWT(
   scopes
 );
 
-const sampleEvent = {
-  question_1: "my answer to q1",
-  question_2: "my answer to q2",
-  question_4: "my answer to q4",
-  question_5: "my answer to q5"
-};
 
-async function authorizeAndRead() {
+async function handler(event) {
   try {
     jwtClient.authorize(async (error, tokens) => {
       if (error) {
@@ -51,53 +45,47 @@ async function authorizeAndRead() {
           range: ["A1:Z1"]
         });
 
-        const data = hResult.data;
         headers = hResult.data.values[0];
-        console.log("headers", data, headers);
+        // console.log("headers", data, headers);
 
-        // Add new headers if appropriate
-        const newHeaders = checkForNewHeaders(headers, sampleEvent);
-        if (newHeaders.length > 0) {
-          startRangeForNewHeaders = `H${1}`;
-          endRangeForNewHeaders = `G${1}`;
-
-          console.log(startRangeForNewHeaders, " start");
-          const writeResults = await sheets.spreadsheets.values.update({
-            access_token: accessToken,
-            spreadsheetId: sheetId,
-            valueInputOption: "RAW",
-            range: ["H1"],
-            requestBody: {
-              majorDimension: "ROWS",
-              values:  [newHeaders],
-            }
-          });
-
-          hResult = await sheets.spreadsheets.values.get({
-            access_token: accessToken,
-            spreadsheetId: sheetId,
-            range: ["A1:Z1"]
-          });
-
-          headers = hResult.data.values[0];
-          console.log("updated headers", headers);
-        }
-
-        const writeResults = await sheets.spreadsheets.values.append({
+        await sheets.spreadsheets.values.append({
           access_token: accessToken,
           spreadsheetId: sheetId,
           range: ["A1"],
-          resource: getEventResourceValues(headers, sampleEvent),
+          resource: getEventResourceValues(headers, event),
           valueInputOption: "RAW",
+          insertDataOption: "INSERT_ROWS"
         });
-        console.log('cells updated.', result.updatedCells);
       }
     })
-    /* Your code goes here */
   } catch (error) {
-    console.log(error);
+    console.log("error", error);
     callback(null, error);
   }
 }
 
-authorizeAndRead();
+
+// Send batch requests to google sheet
+const testBatch = (n) => {
+  const event = {
+    q1: "my answer to q1",
+    q2: "my answer to q2",
+    q4: "my answer to q4",
+    q5: "my answer to q5",
+  };
+
+  const promArr = [];
+  // Create n requests to write to the google sheet
+  for(let i = 0; i < n; i++) {
+    console.log("number", i);
+    event.q1 = `${i}`;
+    promArr.push(handler({...event}));
+  }
+  try {
+    return Promise.all(promArr);
+  } catch (error) {
+    console.log("error from promise all", error);
+  }
+}
+
+testBatch(100);

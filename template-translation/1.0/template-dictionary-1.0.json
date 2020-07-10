@@ -332,7 +332,17 @@
         "type": "send-message",
         "dictionary": {
             "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
-            "en": ""
+            "en": "I'm sorry",
+            "fr": "Je suis delois"
+        }
+    },
+    "unknownanswer_q24_2": {
+        "type": "send-message",
+        "dictionary": {
+            "es": "Lo siento, no entendí esa respuesta. Responda con el número de su respuesta.",
+            "en": "",
+            "fr": "",
+            "farsi": "أي من هذه الأوصاف ينطبق بشكل أفضل على ما كنت تقوم به خلال الأسابيع الأربعة الماضية؟&nbsp;يُرجى الرد برقم إجابتك."
         }
     }
 }
